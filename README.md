@@ -12,6 +12,10 @@
 
 ## Краткое описание решения
 
-1. Создал проект GO_2_HOMEWORK_3. Командой go mod init github.com/alexgo92/GO_2_homework_3 создал go.mod, затем командой go mod tidy актуализировал зависимости.
+1. Создал проект GO_2_HOMEWORK_3. Командой go mod init github.com/alexgo92/GO_2_homework_3 создал go.mod, затем командой go mod tidy актуализировал зависимости. 
 Затем добавили командой go get -u github.com/davecgh/go-spew/spew данный пакет.
-2. Отправили все в гитхаб и командой git tag -a v1.0.0 -m "version 1.0.0"
+2. Отправили все в гитхаб и командой git tag -a v1.0.0 -m "version 1.0.0" создали тег и 
+отправили: git push origin v1.0.0
+Затем обнаружил ненужный/ лишний fmt.Println("bag") удалил его. И обновил версию:
+git tag -a v1.0.1 -m "bug version 1.0.1" и 
+отправили: git push origin v1.0.1
