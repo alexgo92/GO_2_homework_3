@@ -1,4 +1,4 @@
-module github.com/alexgo92/GO_2_homework_3 // import "alex/GO_2_home_3"
+module github.com/alexgo92/GO_2_homework_3/v2 
 
 go 1.18
 
