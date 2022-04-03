@@ -30,11 +30,4 @@ git tag -a v1.0.2 -m "bug version 1.0.2" и
 git tag -a v2.0.0 -m "new version 2.0.0" и 
 отправили: git push origin v2.0.0
 
-// Не добавил в go.mod v2, поэтому не была видна v2 исправил данную ошибку.
-И обновил версию:
-git tag -a v2.0.1 -m "new version 2.0.1" и 
-отправили: git push origin v2.0.1
-Проверил в тестовом репозитории: 
-go get -v github.com/alexgo92/GO_2_homework_3/v2@v2.0.1
-
 4. Сделано все выше, отправлял сразу.
